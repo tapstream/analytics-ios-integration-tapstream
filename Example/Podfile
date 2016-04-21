@@ -4,5 +4,7 @@ use_frameworks!
 target 'Tapstream-Segment_Tests', :exclusive => true do
   pod 'Tapstream-Segment', :path => '../'
 
-  
+  pod 'OCMockito'
+  pod 'Specta'
+  pod 'Expecta'
 end

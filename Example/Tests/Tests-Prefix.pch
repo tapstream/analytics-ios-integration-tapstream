@@ -1,7 +1,9 @@
 //  The contents of this file are implicitly included at the beginning of every test case source file.
 
 #ifdef __OBJC__
-
-  
-
+	@import Specta;
+	@import Expecta;
+	@import OCMockito;
+	@import Analytics;
+	@import OCHamcrest;
 #endif
