@@ -8,6 +8,15 @@ language: objective-c
 # before_install:
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
+
+osx_image: xcode7.1
+
+before_install:
+  - gem install cocoapods
+
 script:
-- set -o pipefail && xcodebuild test -workspace Example/Tapstream-Segment.xcworkspace -scheme Tapstream-Segment-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -workspace Example/Tapstream-Segment.xcworkspace -scheme Tapstream-Segment-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6' ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
+
+notifications:
+  email: false

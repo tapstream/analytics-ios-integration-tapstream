@@ -8,7 +8,6 @@
 
 #ifndef TSSegmentIntegrationFactory_h
 #define TSSegmentIntegrationFactory_h
-#include "TSTapstream.h"
 
 #import <Analytics/SEGIntegrationFactory.h>
 
