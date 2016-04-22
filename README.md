@@ -1,15 +1,9 @@
 # Tapstream-Segment
 
-[![CI Status](http://img.shields.io/travis/Adam Bard/Tapstream-Segment.svg?style=flat)](https://travis-ci.org/Adam Bard/Tapstream-Segment)
+[![CI Status](http://img.shields.io/travis/tapstream/analytics-ios-integration-tapstream.svg?style=flat)](https://travis-ci.org/tapstream/analytics-ios-integration-tapstream)
 [![Version](https://img.shields.io/cocoapods/v/Tapstream-Segment.svg?style=flat)](http://cocoapods.org/pods/Tapstream-Segment)
 [![License](https://img.shields.io/cocoapods/l/Tapstream-Segment.svg?style=flat)](http://cocoapods.org/pods/Tapstream-Segment)
 [![Platform](https://img.shields.io/cocoapods/p/Tapstream-Segment.svg?style=flat)](http://cocoapods.org/pods/Tapstream-Segment)
-
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -19,6 +13,11 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "Tapstream-Segment"
 ```
+
+## Usage
+
+Exposes the tracking parts of [Tapstream's iOS SDK](https://tapstream.com/developer/ios/integration) via
+[Segment](https://segment.com).
 
 ## Author
 
