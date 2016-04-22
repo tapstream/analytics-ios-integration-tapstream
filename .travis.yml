@@ -13,6 +13,7 @@ osx_image: xcode7.1
 
 before_install:
   - gem install cocoapods
+  - pod install --project-directory=Example
 
 script:
 - set -o pipefail && xcodebuild test -workspace Example/Tapstream-Segment.xcworkspace -scheme Tapstream-Segment-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6' ONLY_ACTIVE_ARCH=NO | xcpretty
