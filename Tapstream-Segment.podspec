@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Tapstream-Segment"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Tapstream Integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
