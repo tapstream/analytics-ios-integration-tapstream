@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
     'Tapstream-Segment' => ['Tapstream-Segment/Assets/*.png']
   }
 
-  s.dependency 'Analytics', '~> 3.0.0'
+  s.dependency 'Analytics'
   s.dependency 'Tapstream', '~> 2.11.0'
 end
