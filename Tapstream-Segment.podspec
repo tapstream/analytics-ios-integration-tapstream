@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Tapstream-Segment"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Tapstream Integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
     'Tapstream-Segment' => ['Tapstream-Segment/Assets/*.png']
   }
 
-  s.dependency 'Analytics', '~> 3.0.0'
+  s.dependency 'Analytics'
   s.dependency 'Tapstream', '~> 2.11.0'
 end
